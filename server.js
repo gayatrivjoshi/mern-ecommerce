@@ -23,7 +23,7 @@ const app = express();
 const connectDB = async () => {
   try {
     await mongoose.connect(
-      "mongodb+srv://Gayatrij768:Gayatrij768@cluster0.bvjat5r.mongodb.net/?retryWrites=true&w=majority",
+      "",
       {
         useNewUrlParser: true,
         useUnifiedTopology: true,
